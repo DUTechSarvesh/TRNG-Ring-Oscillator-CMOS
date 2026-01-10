@@ -100,7 +100,7 @@ Different RO geometries were explored to maximize randomness:
 - **Dynamic CMOS Inverter RO:** Uses clocked precharge/evaluate phases to increase frequency and pseudo-randomness while reducing transistor count. Verified through **layout, RC extraction, LVS, and DRC**.
   <table>
   <tr>
-    <td><img src="CMOS_inverter_schematic (1).jpg" alt="TRNG Overview" width="300"></td>
+    <td><img src="CMOS_inverter_schematic (1).png" alt="TRNG Overview" width="300"></td>
     <td><img src="D_iNV_Schem (1).png" alt="Dynamic Inverter" width="300"></td>
     <td><img src="Current_Starved_Inverter_Schematic (1).png" alt="Current Starved Inverter" width="300"></td>
   </tr>
