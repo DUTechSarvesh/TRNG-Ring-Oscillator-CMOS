@@ -72,7 +72,6 @@ This project develops and evaluates **Ring Oscillator (RO) architectures** for a
 
 ### 2. Ring Oscillator (RO) Architectures
 Different RO geometries were explored to maximize randomness:
-
 #### 2.1 Tetrahedral RO
 - 8 inverters arranged in a tetrahedral structure with **4 unstable loops** and **3 stable loops**.
 - Produces randomness through **jitter accumulation** across multiple loops.
@@ -87,6 +86,7 @@ Different RO geometries were explored to maximize randomness:
 - 12 inverters in a hexagonal layout; 15 loops (8 unstable, 7 stable).
 - High complexity and large area; lower frequency and higher power than PRO.
 - Useful for research but less efficient for practical TRNGs.
+<img src="Oscillator_structure.png" width="90%">
 
 #### Comparative Summary
 | Type | Inverters | Key Entropy Source | Efficiency |
