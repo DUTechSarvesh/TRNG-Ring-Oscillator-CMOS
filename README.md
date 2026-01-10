@@ -23,8 +23,19 @@ The design includes **schematic capture, custom layout, DRC & LVS verification**
 ---
 
 ## 1️⃣ Introduction
-
-With growing dependence on digital systems, **security and trust** have become critical in electronic design. Cryptographic mechanisms rely on **high-quality random numbers** for encryption keys and authentication, and weak or predictable randomness can compromise system security.  
+<table>
+  <tr>
+    <td width="60%">
+      <h3>True Random Number Generator (TRNG)</h3>
+      <p>
+       With growing dependence on digital systems, security and trust have become critical in electronic design. Cryptographic mechanisms rely on **high-quality random numbers** for encryption keys and authentication, and weak or predictable randomness can compromise system security.  
+      </p>
+    </td>
+    <td width="40%">
+      <img src="3092704.jpg" alt="TRNG Image" width="100%">
+    </td>
+  </tr>
+</table>
 
 Random number generators are broadly classified into **Pseudo-Random Number Generators (PRNGs)** and **True Random Number Generators (TRNGs)**. While PRNGs are algorithmic and predictable if their internal state or seed is exposed, TRNGs extract randomness from **physical processes**, providing inherently unpredictable outputs suitable for secure hardware applications.  
 
