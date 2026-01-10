@@ -98,6 +98,14 @@ Different RO geometries were explored to maximize randomness:
 ### 3. Advanced RO Variants
 - **Current-Starved RO (CSRO):** Adds series NMOS/PMOS to limit currents, enabling tunable oscillation frequency and lower harmonic distortion. Ideal for **low-noise, low-power TRNGs**.
 - **Dynamic CMOS Inverter RO:** Uses clocked precharge/evaluate phases to increase frequency and pseudo-randomness while reducing transistor count. Verified through **layout, RC extraction, LVS, and DRC**.
+  <table>
+  <tr>
+    <td><img src="CMOS_inverter_schematic (1).jpg" alt="TRNG Overview" width="300"></td>
+    <td><img src="D_iNV_Schem (1).png" alt="Dynamic Inverter" width="300"></td>
+    <td><img src="Current_Starved_Inverter_Schematic (1).png" alt="Current Starved Inverter" width="300"></td>
+  </tr>
+</table>
+
 
 ### 4. Sampling & TRNG Mechanism
 - The oscillator output is sampled via a **D-Flip-Flop (DFF)**.
