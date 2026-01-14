@@ -123,14 +123,16 @@ This modular design approach allows evaluation of **area, power, stability, and 
 - **Dynamic CMOS RO** showed the **highest oscillation frequency** due to its precharge–evaluate mechanism.  
 - **Pentagonal RO (PRO)** had **moderate frequency** but strong entropy due to **metastability + jitter**.  
 - **Current-Starved RO (CSRO)** offered **low frequency**, **low noise**, and **higher delays**, highlighting a **power-performance trade-off**.
-
+ ![Frequency1](Frequency1.png)  ![Frequency2](Frequency2.png)
 ### 2. Power & Efficiency
 - **Average Power (low → high):** Dynamic CMOS < Tetrahedral < Pentagonal < Hexagonal < Current-Starved.  
 - **THD (signal distortion):** Tetrahedral highest (unstable), followed by Dynamic CMOS, Hexagonal, Pentagonal, and Current-Starved.
+- ![Power](power.png)
 
 ### 3. Randomness
 - Dynamic CMOS and Pentagonal ROs produced **high-quality random bitstreams** when sampled by D-Flip-Flops.  
 - Dynamic CMOS RO had **higher noise**, which increases entropy for TRNG applications.
+![THD](THD.png)
 
 ---
 
